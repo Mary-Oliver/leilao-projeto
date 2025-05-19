@@ -15,6 +15,11 @@ public class cadastroVIEW extends javax.swing.JFrame {
     public cadastroVIEW() {
         initComponents();
     }
+public class Principal {
+    public static void main(String[] args) {
+        new cadastroVIEW().setVisible(true);
+    }
+}
 
     /**
      * This method is called from within the constructor to initialize the form.
